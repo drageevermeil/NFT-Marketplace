@@ -1,0 +1,27 @@
+
+
+
+.gifRun_content{
+display: flex;
+  align-items: center;
+  overflow: hidden;
+  overflow-x:hidden; 
+  animation: marquee 5.5s infinite linear; 
+
+
+
+}
+
+.gifRun{
+    white-space: nowrap;
+    animation: marquee 5.5s infinite linear; 
+}
+
+@keyframes gifRun{
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-50%)
+    }
+  }

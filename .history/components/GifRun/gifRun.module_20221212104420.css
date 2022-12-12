@@ -1,0 +1,10 @@
+
+
+
+.gifRun{
+    display: flex;
+  align-items: center;
+  background: #08236a;
+  overflow: hidden;
+  overflow-x:hidden; 
+}

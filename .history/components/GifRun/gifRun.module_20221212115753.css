@@ -1,0 +1,28 @@
+
+.marqueecontainer{
+    width:1000px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    overflow-x:hidden; 
+  } 
+  .marqueecontainer span {
+    
+  }
+  
+  
+  .marquee{
+    
+  
+    white-space: nowrap;
+    animation: marquee 5.5s infinite linear; 
+  }
+  
+  @keyframes marquee{
+    0% {
+        transform: translateX(0%)
+    }
+    100% {
+        transform: translateX(100%)
+    }
+  }  

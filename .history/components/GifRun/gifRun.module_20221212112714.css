@@ -1,0 +1,63 @@
+
+.gifRuncontent{
+    display: flex;
+    align-items: center;
+    background: #08236a;
+    overflow: hidden;
+    overflow-x:hidden; 
+  } 
+  
+  .marquee{
+    
+    font-size: 50px;
+    line-height: 1;
+    font-family: 'VT323';
+    /* padding: 24px 0; */
+    color: #fd76c5;
+    white-space: nowrap;
+    animation: marquee 25.5s infinite linear; 
+  }
+  
+  
+  .marquee:after{
+    content: " METAVERSE - CYBERSPACE - MATRIX - NET - MODERN - PIXEL - ETHEREUM";
+    content: " METAVERSE - CYBERSPACE - MATRIX - NET - MODERN - PIXEL - ETHEREUM";
+  
+  
+  }
+  
+  @keyframes marquee{
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-50%)
+    }
+  }
+
+.gifRuncontent{
+    display: flex;
+  align-items: center;
+  overflow: hidden;
+  overflow-x:hidden; 
+  animation: marquee 2.5s infinite linear; 
+  white-space: nowrap;
+
+
+
+
+}
+
+.gifRun{
+    white-space: nowrap;
+    animation: marquee 2.5s infinite linear; 
+}
+
+@keyframes gifRun_content{
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-50%)
+    }
+  }

@@ -1,0 +1,9 @@
+
+
+
+.gifRun_conte{
+    display: flex;
+  align-items: center;
+  overflow: hidden;
+  overflow-x:hidden; 
+}
