@@ -1,0 +1,62 @@
+
+@import url('https://fonts.google.com/specimen/VT323');
+
+
+
+
+
+
+ .marqueecontainer{
+  display: flex;
+  align-items: center;
+  background: #991199;
+  overflow: hidden;
+  overflow-x:hidden; 
+
+} 
+
+.marquee{
+  
+  font-size: 50px;
+  line-height: 1;
+  font-family: 'VT323';
+  /* padding: 24px 0; */
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+
+  white-space: nowrap;
+  animation: marquee 25.5s infinite linear; 
+  
+
+}
+.marquee {
+  color: #fff;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 15px #fff,
+    0 0 20px #fff,
+    0 0 35px #fff,
+    0 0 40px #fff;
+}
+
+
+.marquee:after{
+  content: " METAVERSE - CYBERSPACE - MATRIX - NET - MODERN - PIXEL - ETHEREUM";
+  content: " METAVERSE - CYBERSPACE - MATRIX - NET - MODERN - PIXEL - ETHEREUM";
+
+
+}
+
+@keyframes marquee{
+  0% {
+      transform: translateX(0)
+  }
+  100% {
+      transform: translateX(-50%)
+  }
+}
+
