@@ -1,16 +1,12 @@
+NFT Marketplace
 
-  
+1.git clone
+2.cd
+3.npm install
 
 
-
-
-                 
-                 
-                  
-  
-
-   npx hardhat node 
-   npx hardhat run scripts/deploy.js --network localhost 
-   npx hardhat test
-    npm run dev
+4.npx hardhat node 
+5.npx hardhat run scripts/deploy.js --network localhost 
+6.npx hardhat test
+7.npm run dev
 
